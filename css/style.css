@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:hsl(185, 41%, 84%);
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+.container h1 {
+    text-align: center;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+}
+.row-bx {
+    background: #fff;
+    padding: 30px;
+    margin-top: 30px;
+    display: flex;
+    border-radius: 10px;
+
+}
+.buttons-div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.buttons-div button {
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    background: hsl(183, 100%, 15%);
+    color: #fff;
+    border: 1px solid hsl(183, 100%, 15%);
+}
+.buttons-div button:hover {
+    background: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+    border: 1px solid  hsl(172, 67%, 45%);
+}
+input {
+    padding: 8px;
+    width: 100%;
+    margin-top: 10px;
+    outline: none;
+    font-size: 14px;
+    text-align: right;
+    color: hsl(183, 100%, 15%);
+    font-weight: 600;
+    background: hsl(189, 41%, 97%);
+    border: 1px solid hsl(189, 41%, 97%);
+    position: relative;
+    padding-left: 35px;
+}
+img {
+    position: absolute;
+         margin-top: 17.5px;
+         margin-left: 10px;
+         font-size: 20px;
+         color: red;
+         z-index: 1;
+}
+.btn {
+    margin-top: 10px;
+}
+.label-div {
+    display: flex;
+    justify-content: space-between;
+}
+ label {
+    font-size: 14px;
+    font-weight: 600;
+}
+#label-txt {
+    margin-left: 15px;
+}
+.custom {
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    outline: none;
+    background: hsl(189, 41%, 97%);
+    border: 1px solid hsl(189, 41%, 97%);
+}
+.down-div {
+    margin-top: 20px;
+}
+.row-2 {
+    margin-left: 20px;
+    background: hsl(183, 100%, 15%);
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+}
+.dollar {
+    padding: 10px;
+    min-width: 40px
+}
+.amount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+.total p {
+    color: #fff;
+    font-size: 12px;
+}
+.total small {
+    color: hsl(185, 41%, 84%);
+}
+.amount h1 {
+    color: hsl(172, 67%, 45%);
+}
+.reset {
+    margin-top: 50px;
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+     border: 1px solid hsl(172, 67%, 45%);
+    background: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px){
+    .row-bx {
+        flex-direction: column;
+    }
+    .row-2 {
+        margin-top: 20px;
+        margin-left: 0px;
+        width: 320px;
+    }
+}
